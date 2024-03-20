@@ -1,0 +1,16 @@
+.dot-cursor {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ff56238f; /* Change the color as needed */
+  pointer-events: none; /* Ensures the dot cursor doesn't interfere with mouse events */
+  z-index: 9999; /* Ensures the dot cursor is above other elements */
+  transform: translate(-50%, -50%);
+}
+
+body {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" fill="%231f2235"/></svg>')
+      8 8,
+    auto;
+}
